@@ -1,0 +1,47 @@
+---
+title: "My first Markdown"
+author: "Pablo Velásquez"
+date: "3/6/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+**Bold**
+
+*Italic*
+
+# Header level 1
+## Header level 2
+## Header level 3
+
+
+```{r}
+print("hello world")
+```
+
+
+
+
+# **list**
+
+
+
+- hola
+- chao 
+- mijo
+
+f
+
+
+~~strike~~
+
+[link](link)
+
+
+
+
